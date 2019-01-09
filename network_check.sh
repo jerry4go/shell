@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# check icmp and tcp is alive or not
 
 if [ -z "$1" ];then
 
@@ -10,9 +11,6 @@ echo -e "\033[31m\033[01m[ $usage ]\033[0m"
 exit 0;
 
 fi
-
-
-# check icmp and tcp is alive or not
 
 # install the tools
 
