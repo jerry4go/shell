@@ -1,9 +1,9 @@
 #!/bin/bash
 
-domain="https://www.flyzy2005.com"
+domain=$1
 
 #curl -I -s --connect-timeout 3 $domain
-curl -f $domain
+curl -I -f --connect-timeout 3 $domain
 
 status=`echo $?`
 
