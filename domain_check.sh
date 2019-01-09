@@ -20,6 +20,7 @@ fi
 
 domain=$1
 
+# only display the http header and the error info.The connect timeout set 3 seconds.
 #curl -I -s --connect-timeout 3 $domain
 curl -I -f --connect-timeout 3 $domain
 
