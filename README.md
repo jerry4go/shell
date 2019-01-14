@@ -24,4 +24,6 @@ shell 常用的颜色组合
 
 # [Telegram_SendMsg.sh](./point/Telegram_SendMsg.sh)
 
+telegram 告警信息发送脚本
+
 ### [Telegram bot 机器人API指南](./point/Telegram_readme.md)
