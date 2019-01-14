@@ -1,4 +1,4 @@
-# docker-ce.sh
+# (docker-ce.sh)(./point/docker-ce.sh)
 
 centos安装docker-ce的脚本
 
