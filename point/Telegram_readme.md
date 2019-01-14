@@ -4,37 +4,50 @@
 
 ## 1. 创建一个 telegram bot 机器人
 
-### 在telegram 搜索框 搜索  BotFather
+```
+在telegram 搜索框 搜索  BotFather
+```
 
 #### BotFather 是 管理所有机器人的父机器人。可以使用它来创建新机器人或者管理现有的机器人
 
 #### 1.1 创建新机器人指令：
 
-#### /newbot
+```
+/newbot
+```
 
 #### 为新机器人取一个名字
 
-#### Notifier
+```
+Notifier
+```
 
 #### 为新机器人创建一个全网唯一的用户名(必须以_bot结尾)
 
-#### notifier_bot
+```
+notifier_bot
+```
 
 #### 一旦机器人创建好，系统会生成一串token用于调用telegram 的 API
 
-#### 4334584910:AAEPmjlh84N62Lv3jGWEgOftlxxAfMhB1gs
+```
+4334584910:AAEPmjlh84N62Lv3jGWEgOftlxxAfMhB1gs
+```
 
 #### 1.2 获取 chat ID
 
-#### 在搜索框 搜索 notifier_bot
+```
+在搜索框 搜索 notifier_bot
+```
 
 #### 点击 /start
 
 
 #### 在浏览器通过以下的格式获取 chat id (把<TOKEN>替换为对应机器人的token)
 
+```
 https://api.telegram.org/bot<TOKEN>/getUpdates
-
+```
 
 #### 或者使用 curl 命令来请求
 
