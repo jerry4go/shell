@@ -21,3 +21,7 @@ shell 常用的颜色echo输出
 # [shell_color.md](./point/shell_color.md)
 
 shell 常用的颜色组合
+
+# [Telegram_SendMsg.sh](./point/Telegram_SendMsg.sh)
+
+### [Telegram bot 机器人API指南](./point/Telegram_readme.md)
