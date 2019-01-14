@@ -13,3 +13,11 @@ centos安装docker-ce的脚本
 # [network_check.sh](./point/network_check.sh)
 
 网络检测脚本(包含TCP端口检测，ICMP检测，DNS解析)
+
+# [echo_color.sh](./point/echo_color.sh)
+
+shell 常用的颜色echo输出
+
+# [shell_color.md](./point/shell_color.md)
+
+shell 常用的颜色组合
