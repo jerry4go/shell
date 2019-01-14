@@ -27,3 +27,8 @@ shell 常用的颜色组合
 telegram 告警信息发送脚本
 
 ### [Telegram bot 机器人API指南](./point/Telegram_readme.md)
+
+# [mysql_master_slave_check.sh](./point/mysql_master_slave_check.sh)
+
+mysql 主从状态监测
+
