@@ -32,3 +32,8 @@ telegram 告警信息发送脚本
 
 mysql 主从状态监测
 
+# [dingding_SendMsg.md](./point/dingding_SendMsg.md)
+
+钉钉告警接口
+
+
