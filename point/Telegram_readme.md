@@ -88,7 +88,16 @@ curl -s -X POST $URL -d chat_id=$CHAT_ID -d text="$MESSAGE"
 ```
 
 
+## 3.  调用 telegram bot api: sendDocument
 
+调用API 方法 sendDocument 发送本地文件
+
+```shell
+curl -F chat_id="-xxxxxxxxxx" \
+-F document=@"/home/telegram/someFile.pdf" \
+-F caption="Text Message with attachment" \
+https://api.telegram.org/bot<token>/sendDocument
+```
 
 
 
